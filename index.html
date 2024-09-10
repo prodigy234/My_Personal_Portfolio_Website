@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <!-- custom css link -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- custom google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- custom box-icon link -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   </head>
   <body>
-    <!---- Hero Section Start---->
 
+    <header>
+      <a href="#" class="logo">MY WEBSITE <img src="assets/images/website_logo.png" height="10" width="10" alt=""></a>
 
-    <div class="hero">
-        <nav>
-            <h2 class="logo">My Portfolio Website</h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="https://www.datacamp.com/portfolio/kgbenga234">My Portfolio</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">My Projects</a></li>
-                <li><a href="#">My Certifications & Achievements</a></li>
-                <li><a href="#">My Services</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
-            <a href="#" class="btn">Subscribe</a>
-        </nav>
-    </div>    
+      <ul class="navbar">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#ser">Services</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#test">Testimonial</a></li>
+      </ul>
+
+      <div class="header-btn">
+        <a href="#cont" class="nav-btn"><i class='bx bxs-phone-call'></i>Let's Talk</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+      </div>
+    </header>
+    
+    
+
+    <!-- home section html -->
+     <section class="home" id="home">
+      <div class="home-text">
+        <br>
+        <br>
+        <h4>Hello I'm</h4>
+        <h1>Kajola Gbenga</h1>        
+        <h3>And I'm a <span class="input"></span></h3>
+        <p>As a programmer, data analyst, and data scientist, I offer comprehensive tech solutions that leverage code development, data visualization, and predictive modeling to drive business insights, automate processes, and uncover hidden patterns, empowering organizations to make informed decisions and drive innovation.
+        </p>
+
+        <div class="home-icon">          
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+          <a href="#"><i class='bx bxl-github'></i></a>
+          <a href="#"><i class='bx bxl-whatsapp'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+        </div>
+      </div>
+
+      <div class="home-btn">
+        <a href="#" class="hm-btn">How I deliver <span><i class='bx bx-right-arrow-alt'></i></span></a>
+      </div>
+
+      <div class="home-img">
+        <-- <img src="assets/images/gbenga.jpg" alt="">
+      </div>  
+
+     </section>
+
+    
+    <!-- custom javascript link-->
+     <script src="script.js"></script>
+
+    
   </body>
 </html>
