@@ -271,3 +271,131 @@ header.sticky{
     font-size: 20px;
     margin-right: 10px;
 }
+/* Expert Areas css */
+.areas{
+    background-color: #8801D4;
+}
+.areas-top h1{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.areas-top p{
+    max-width: 700px;
+    color: yellow;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin: 0px auto 80px;
+}
+.skill-detls{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+}
+.box-img img{
+    width: 100px;
+    height: auto;
+    height: auto;
+    cursor: pointer;
+    transition: all .42s;
+}
+.box-img:hover img{
+    -webkit-filter: grayscale(100%);;
+    filter: grayscale(100%);
+}
+.box-img{
+    filter: none;
+    text-align: center;
+    padding: 30px 50px;
+    background: green;
+    border-radius: 15px;
+    box-shadow: rgba(48, 49, 49, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    transition: all .42s ease;
+}
+.box h4{
+    color: blue;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 12px 0px 0px 0px;
+}
+.box h3{
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* Recent project section css */
+.recent-project{
+    background-color: yellow;
+}
+.project-top{
+    text-align: center;    
+}
+.project-top h5{
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.project-top h2{
+    color: purple;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-size: 700;
+    margin-bottom: 40px;
+}
+.project-top h2 span {
+    color: green;
+}
+.project-list{
+    margin-bottom: 80px;
+}
+.project-list a{
+    color: #FFF;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: all .42s;
+}
+.project-list .active{
+    border: 1px solid red;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.project-list a:hover{
+    border: 1px;
+    background-color: red;
+}
+.main-project{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+}
+.project{
+    overflow: hidden;
+}
+.project img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .42s;
+}
+.project:hover img{
+    transform: scale(1.1);
+}
