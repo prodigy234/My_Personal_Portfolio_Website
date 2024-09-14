@@ -18,11 +18,13 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 25px 12%;
+    margin-bottom: 30px;
 }
 .logo img{
     max-width: 100%;
     width: 160px;
     height: auto;
+    margin-bottom: 30px;
     /* margin-top: 5px;
     margin-bottom: auto; */
 }
@@ -109,7 +111,7 @@ section{
     font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-top: 50px;
 }
 .home-text h1{
     color: #FFFBFB;
@@ -117,6 +119,7 @@ section{
     font-weight: 700;
     text-transform: uppercase;
     margin: 12px 0px;
+    margin-top: 30px;
 }
 .home-text h3{
     color: #0097A7;
@@ -148,6 +151,7 @@ section{
     background-color: #56AEFF;
     border: 2px solid black;
     border-radius: 30px;
+    margin-top: 30px;
     margin-bottom: 40px;
     transition: all .42s;
 }
