@@ -440,13 +440,13 @@ header.sticky{
     position: relative;
     padding: 20px 20px;
     border-radius: 10px;
-    background-color: #051D40;
+    background-color: #56AEFF;
     cursor: pointer;
-    box-shadow: rgba(48, 49, 49, 0.2) 0px 8px 24px;
+    box-shadow: rgba(5, 29, 0, 1) 0px 8px 24px;
     transition: all .42s;
 }
 .test-card:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(5, 29, 0, 1) 0px 3px 8px;
 }
 .test-top{
     display: flex;
