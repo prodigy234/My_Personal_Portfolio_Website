@@ -10,6 +10,7 @@
 header{
     position: fixed;
     width: 100%;
+    background-color: transparent;    
     top: 0;
     right: 0;
     z-index: 10001;
@@ -22,13 +23,15 @@ header{
     max-width: 100%;
     width: 160px;
     height: auto;
+    /* margin-top: 5px;
+    margin-bottom: auto; */
 }
 .navbar{
     display: flex;
     align-items: center;
 }
 .navbar a{
-    color: #000;
+    color: #FFFBFB;
     font-size: 18px;
     font-weight: 400;
     text-transform: capitalize;
@@ -36,10 +39,10 @@ header{
     transition: all .42s;
 }
 .navbar a:hover{
-    color: #FA614F;
+    color: purple;
 }
 .navbar .active{
-    color: blueviolet;
+    color: orange;
 }
 .header-btn{
     display: flex;
@@ -53,7 +56,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FA614F;
+    background: orange;
     color: #FFFF;
     font-size: 19px;
     text-transform: capitalize;
@@ -63,7 +66,7 @@ header{
     transition: all .42s;
 }
 .nav-btn:hover{
-    background: #8801D4;
+    background: purple;
 }
 #menu-icon{
     font-size: 40px;
@@ -84,7 +87,9 @@ section{
     position: relative;
     width: 100;
     height: 100vh;
-    background-image: url(assets/images/banner.jpg);
+    background-color: #051D40;
+    /* background-color: #F7DC6F; */
+    /* background-image: url(assets/images/banner.jpg); */
     background-position: center;
     background-size: cover;
     display: flex;
@@ -93,44 +98,46 @@ section{
     gap: 3rem;
 }
 .home-img img{
+    background-color: transparent;
     max-width: 100%;
     width: 450px;
     height: auto;
 }
 .home-text h4{
-    color: white;
+    color: #FFFBFB;
     font-size: 30px;
     font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 .home-text h1{
-    color: white;
+    color: #FFFBFB;
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 12px 0px;
 }
 .home-text h3{
-    color: black;
+    color: #0097A7;
     font-size: 28px;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 .home-text h3 span{
-    color: #8801D4;
+    color: #56AEFF;
 }
 .home-text{
     max-width: 600px;
-    color: white;
+    color: #FFFBFB;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 30px;
 }
 .home-icon i{
-    color:aqua;
+    color: green;
     font-size: 22px;
     margin-right: 15px;
     display: inline-flex;
@@ -138,7 +145,8 @@ section{
     justify-content: center;
     width: 40px;
     height: 40px;
-    border: 2px solid orangered;
+    background-color: #56AEFF;
+    border: 2px solid black;
     border-radius: 30px;
     margin-bottom: 40px;
     transition: all .42s;
@@ -157,20 +165,20 @@ section{
     transition: all .42s;
 }
 .hm-btn{
-    display: inline-block;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: yellow;
+    color: #FFFBFB;
     font-size: 20px;
     font-weight: 700;
-    border: 2px solid greenyellow;
-    background-color: #8801D4;
+    border: 2px solid black;
+    background-color: #56AEFF;
     padding: 8px 25px;
     border-radius: 50px;
     transition: all .42s;
 }
 .hm-btn:hover{
-    background-color: transparent;
+    background-color: #212121;
 }
 .hm-btn i:hover{
     transform: rotate(0deg);
@@ -180,7 +188,7 @@ section{
     overflow: hidden;
     white-space: nowrap;
     padding: 20px 0px;
-    background: linear-gradient(0deg, rgba(150, 63, 131, 1) 0%, rgba(145, 5, 213, 1) 100%);
+    background: linear-gradient(45deg, white(0, 151, 167, 1) 0%, white(0, 175, 193, 1) 100%);
 }
 .infinite:hover .infi-logo {
     animation-play-state: paused;
@@ -207,7 +215,7 @@ section{
 
 /* header sticky css */
 header.sticky{
-    background-color: aqua;
+    background-color: #CFF4FF;
     padding: 14px 12%;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
     transition: all .42s;
@@ -215,7 +223,7 @@ header.sticky{
 
 /* About-section css */
 .about{
-    background-color: peru;
+    background-color: #145DA0;
 }
 .main-about{
     display: grid;
@@ -228,25 +236,25 @@ header.sticky{
     height: auto;
 }
 .about-text h5{
-    color: yellow;
+    color: #FFFFFF;
     font-size: 22px;
     text-transform: capitalize;
     font-weight: 500;
     margin-bottom: 15px;
 }
 .about-text h2{
-    color: blue;
+    color: #FFFFFF;
     font-size: 22px;
     text-transform: capitalize;
     font-weight: 700;
     line-height: 1.4;
 }
 .about-text h2 span{
-    color: red;
+    color: orange;
 }
 .about-text p{
     max-width: 540px;
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 28px;
     margin: 20px 0px;
@@ -258,7 +266,7 @@ header.sticky{
     margin-bottom: 30px;
 }
 .about-li h6{
-    color: white;
+    color: #56AEFF;
     font-size: 16px;
     text-transform: capitalize;
     font-weight: 400;
@@ -267,16 +275,16 @@ header.sticky{
     align-items: center;
 }
 .about-li h6 i{
-    color:#FA614F;
+    color: orange;
     font-size: 20px;
     margin-right: 10px;
 }
 /* Expert Areas css */
 .areas{
-    background-color: #8801D4;
+    background-color: #FFFFFF;
 }
 .areas-top h1{
-    color: white;
+    color: #051D40;
     font-size: 40px;
     text-transform: capitalize;
     font-weight: 700;
@@ -285,7 +293,7 @@ header.sticky{
 }
 .areas-top p{
     max-width: 700px;
-    color: yellow;
+    color: #56AEFF ;
     font-size: 17px;
     font-weight: 400;
     line-height: 28px;
@@ -312,21 +320,21 @@ header.sticky{
     filter: none;
     text-align: center;
     padding: 30px 50px;
-    background: green;
+    background: #051D40;
     border-radius: 15px;
     box-shadow: rgba(48, 49, 49, 0.2) 0px 8px 24px;
     cursor: pointer;
     transition: all .42s ease;
 }
 .box h4{
-    color: blue;
+    color: #0097A7;
     font-size: 25px;
     font-weight: 600;
     margin: 12px 0px 0px 0px;
 }
 .box h3{
     text-align: center;
-    color: aqua;
+    color: 2px solid black;
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
@@ -334,33 +342,33 @@ header.sticky{
 
 /* Recent project section css */
 .recent-project{
-    background-color: yellow;
+    background-color: #4BD1FB;
 }
 .project-top{
     text-align: center;    
 }
 .project-top h5{
-    color: red;
+    color: #051D40;
     font-size: 22px;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 .project-top h2{
-    color: purple;
+    color: #FFFBFB;
     font-size: 40px;
     text-transform: capitalize;
     font-size: 700;
     margin-bottom: 40px;
 }
 .project-top h2 span {
-    color: green;
+    color: orange;
 }
 .project-list{
     margin-bottom: 80px;
 }
 .project-list a{
-    color: #FFF;
+    color: #051D40;
     font-size: 15px;
     text-transform: capitalize;
     font-weight: 400;
@@ -371,13 +379,13 @@ header.sticky{
     transition: all .42s;
 }
 .project-list .active{
-    border: 1px solid red;
+    border: #051D40;
     padding: 5px 15px;
     border-radius: 10px;
 }
 .project-list a:hover{
     border: 1px;
-    background-color: red;
+    background-color: orange;
 }
 .main-project{
     display: grid;
@@ -402,10 +410,10 @@ header.sticky{
 
 /* Client review section css */
 .client-say{
-    background-color: gold;
+    background-color: #FFFBFB;
 }
 .client-top h5{
-    color: #FA614F;
+    color: #56AEFF;
     font-size: 22px;
     font-weight: 700;
     text-transform: capitalize;
@@ -413,7 +421,7 @@ header.sticky{
     text-align: center;
 }
 .client-top h2{
-    color: white;
+    color: #145DA0;
     font-size: 40px;
     text-transform: capitalize;
     font-weight: 700;
@@ -421,7 +429,7 @@ header.sticky{
     text-align: center;
 }
 .client-top h2 span{
-    color: red;
+    color: orange;
 }
 .client-detls{
     display: grid;
@@ -432,7 +440,7 @@ header.sticky{
     position: relative;
     padding: 20px 20px;
     border-radius: 10px;
-    background-color: green;
+    background-color: #051D40;
     cursor: pointer;
     box-shadow: rgba(48, 49, 49, 0.2) 0px 8px 24px;
     transition: all .42s;
@@ -456,7 +464,7 @@ header.sticky{
 }
 .test-btm i{
     font-size: 40px;
-    color: pink;
+    color: 2px solid orange;
     margin-bottom: 20px;
     transition: all .42s;
 }
@@ -464,21 +472,21 @@ header.sticky{
     transform: translateX(5px);
 }
 .test-btm p{
-    color: #8801D4;
+    color: #FFFFFF;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 20px;
 }
 .test-btm h4{
-    color: yellow;
+    color: #FFF;
     font-size: 20px;
     text-transform: capitalize;    
     font-weight: 700;
     margin-bottom: 5px;
 }
 .test-btm h6{
-    color: red;
+    color: orange;
     font-size: 14px;
     text-transform: capitalize;
     font-weight: 400;
@@ -486,7 +494,7 @@ header.sticky{
 
 /* Contact section css */
 .contact{
-    background-color: #000;
+    background-color: #051D40;
 }
 .cont-top h2{
     color: #FFF;
@@ -497,10 +505,10 @@ header.sticky{
     margin-bottom: 20px;
 }
 .cont-top h2 span{
-    color: #FA614F;
+    color: orange;
 }
 .cont-top p{
-    color: pink;
+    color: #FFFBFB;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -519,18 +527,18 @@ form .cont-input input{
     width: 30%;    
 }
 .cont-input input{
-    background-color: aqua;
+    background-color: #FFFBFB;
     font-size: 16px;
     text-transform: inherit;
     border-radius: 10px;
     border: none;
-    caret-color: yellow;
+    caret-color: #FFFBFB;
     border-color: 2px solid green;
     outline: none;
 }
 input:focus,
 input:valid{
-    color: red;
+    color: #051D40;
 }
 form textarea{
     max-width: 100%;
@@ -539,23 +547,23 @@ form textarea{
     padding: 20px 20px;
     font-size: 16px;
     resize: none;
-    border: 2px solid #FFF;
+    border: 2px solid black;
     outline: none;
     border-radius: 10px;
-    background-color: yellow;
+    background-color: #FFFBFB;
     caret-color: brown;
     margin-top: 40px;
 }
 textarea:focus,
 textarea:valid{
-    color: red;
+    color: #051D40;
 }
 .sub{
     color: blue;
     font-size: 20px;
     padding: 12px 50px;
-    background-color: lightsalmon;
-    border: 2px solid lightsalmon;
+    background-color: orange;
+    border: 2px solid #FFFBFB;
     border-radius: 30px;
     letter-spacing: 0.5px;
     margin-top: 40px;
@@ -564,12 +572,12 @@ textarea:valid{
 }
 .sub:hover{
     background-color: transparent;
-    color: purple;
+    color: #56AEFF;
 }
 
 /* footer design css */
 .footer{
-    background-color: tan;
+    background-color: #FFFBFB;
 }
 .main-footer{
     text-align: center;
@@ -582,7 +590,7 @@ textarea:valid{
     margin-bottom: 20px;
 }
 .footer-li a{
-    color: aqua;
+    color: #56AEFF;
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 500;
@@ -590,10 +598,10 @@ textarea:valid{
     transition: all .42s;
 }
 .footer-li a:hover{
-    color: yellow;
+    color: orange;
 }
 .main-footer p{
-    color: #FA614F;
+    color: #051D40;
     font-size: 17px;
     margin-top: 30px;
 }
