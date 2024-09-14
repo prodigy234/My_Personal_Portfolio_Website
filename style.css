@@ -364,6 +364,12 @@ header.sticky{
 .project-top h2 span {
     color: orange;
 }
+.project-top p{
+    color: #FFFBFB;    
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
 .project-list{
     margin-bottom: 80px;
 }
