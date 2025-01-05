@@ -1,4 +1,7 @@
 After deployment:- kajolagbenga.netlify.app
+
+The above website is where you can view this awesome portfolio website I created for myself...
+
 The README note below extensively explained the thought process, coding techniques and above all the right coordinates that was put in place before this colourful portfolio website can be fully set to be dished out for all to see.
 Sincerely speaking this website designing wasn't a child's play because it required me a consistent coding time of minimum of 12 hours daily for the five days period I started just so as to meet up with the stipulated deadline.
 Honestly Speaking, coding is not for the weak and faint-hearted. 
