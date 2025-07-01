@@ -1,5 +1,5 @@
 var typed = new Typed(".input", {
-    strings: ["Certified Data Analyst", "Certified SQL Programmer", "Seasoned Mobile App Developer", "Professional Data Scientist"],
+    strings: ["Certified Data Scientist", "Certified Data Analyst", "Certified SQL Programmer", "Exceptional AI/ML Engineer", "Seasoned Mobile App Developer"],
     typeSpeed: 70,
     backSpeed: 60,
     loop:true
